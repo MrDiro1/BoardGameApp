@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="24512" systemVersion="25B78" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithSwiftData="YES" userDefinedModelVersionIdentifier="">
+    <entity name="GameEntity" representedClassName="GameEntity" syncable="YES" codeGenerationType="class">
+        <attribute name="addedDate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="id" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="imageURL" optional="YES" attributeType="String"/>
+        <attribute name="name" attributeType="String"/>
+        <attribute name="thumbnailURL" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="PlayRecord" representedClassName="PlayRecord" syncable="YES" codeGenerationType="class">
+        <attribute name="firstPlayedDate" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="gameId" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="gameImageURL" optional="YES" attributeType="String"/>
+        <attribute name="gameName" attributeType="String"/>
+        <attribute name="gameThumbnailURL" optional="YES" attributeType="String"/>
+        <attribute name="lastPlayedDate" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="playCount" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+    </entity>
+</model>

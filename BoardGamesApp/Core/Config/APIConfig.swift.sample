@@ -1,0 +1,12 @@
+//
+//  APIConfig.template
+//  BoardGamesApp
+//
+//  Created by Володимир Гончарук on 02.01.2026.
+//
+
+import Foundation
+
+enum APIConfig {
+    static let bggAuthToken = "YOUR_BGG_TOKEN_HERE"
+}
